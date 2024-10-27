@@ -17,10 +17,7 @@ int main() {
    std::cout << "Total number of elements: " << n << std::endl;
    std::cout << "Total sum: " << sum << std::endl;
    std::sort(arr, arr + n);
-   for(int i = 0; i < n; ++i)
-   {
-       std::cout << arr[i] << std::endl;
-   }
+  
    int firstMin = arr[0];
    int firstMax = arr[n - 1];
    int secondMin = -1, secondMax = -1;
